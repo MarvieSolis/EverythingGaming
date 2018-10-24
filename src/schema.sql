@@ -1,0 +1,34 @@
+CREATE DATABASE eg;
+
+USE eg;
+
+CREATE TABLE user (
+	first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    image_url VARCHAR(255) NOT NULL,
+    date_created TIMESTAMP,
+    user_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
+
+CREATE TABLE post (
+	title VARCHAR(100) NOT NULL,
+    game VARCHAR(100) NOT NULL,
+    platform VARCHAR(25) NOT NULL DEFAULT "VARIOUS",
+    score INT UNSIGNED,
+    content LONGBLOB NOT NULL,
+    rating INT NOT NULL,
+    date_posted TIMESTAMP,
+    user_id INT UNSIGNED NOT NULL,
+    post_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
+
+CREATE TABLE comment (
+	content MEDIUMBLOB NOT NULL,
+    user_id INT UNSIGNED NOT NULL,
+    post_id INT UNSIGNED NOT NULL,
+    date_posted TIMESTAMP,
+    rating INT NOT NULL,
+    comment_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
