@@ -1,0 +1,88 @@
+@import '../variables';
+
+.Landing {
+    background-color: $primary;
+    width: 100%;
+    margin-top:25px;
+    margin-bottom: 50px;
+    box-shadow: $shadow;
+}
+
+#landingLogo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#landingTitle{
+    font-family: $headerfont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: $accent;
+    font-weight: bold;
+
+    transition: all 1s;
+
+    &:hover {
+        color: $secondary;
+    }
+}
+
+#landingGif {
+    width: 300px;
+}
+
+.landingTextWrapper {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#landingText {
+    line-height: 30px;
+}
+
+.buttonBox {
+    width: 300px;
+    height: 150px;
+    background-color: $accent;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: $shadow;
+}
+
+.landingBtn {
+    line-height: 60px;
+    width: 250px;
+    border-radius: none;
+    border: none;
+    background-color: $accent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: $primary;
+
+    transition: all 1s;
+
+    &:hover {
+        color: $secondary;
+    }
+}
+
+#loginBtn {
+    margin-top: 7px;
+    border-bottom: 1px solid rgb(175, 146, 82);
+}
+
+.footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+#landingCopyrightText {
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    bottom:0;
+}
