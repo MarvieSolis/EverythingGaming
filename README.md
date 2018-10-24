@@ -14,10 +14,10 @@ This program utilizes **MySQL**, **Express**, **ReactJS**, and **NodeJS**. Table
 - [NodeJS](https://nodejs.org/en/)
 - [Bootstrap 4](https://getbootstrap.com/)
 
-#Screenshots
+## Screenshots
 ![egdatabase](https://user-images.githubusercontent.com/36168517/47428067-01581600-d747-11e8-9de9-585469a0960b.PNG)
-![egcreate](https://user-images.githubusercontent.com/36168517/47428065-01581600-d747-11e8-8758-157d875b1fa3.PNG)
 ![eglanding](https://user-images.githubusercontent.com/36168517/47428068-01581600-d747-11e8-9070-26e083ac938b.PNG)
+![egcreate](https://user-images.githubusercontent.com/36168517/47428065-01581600-d747-11e8-8758-157d875b1fa3.PNG)
 ![eguser](https://user-images.githubusercontent.com/36168517/47428069-01581600-d747-11e8-95e4-4e086de9956a.PNG)
 
 ### Estimated launch date: November 14, 2018
