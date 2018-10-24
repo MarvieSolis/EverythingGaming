@@ -7,7 +7,7 @@ class UserPosts extends Component {
         return (
             <div className="container userPostsPreview">
                 <div className="row justify-content-center ">
-                    <div className="col-sm-auto">
+                    <div className="col-sm-12">
                         <span id="previewLeft">
                             <h6 id="postPreviewTitle">Title of Post</h6>
                             <h6 id="postPreviewGame">Game Title</h6>

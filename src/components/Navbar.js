@@ -11,9 +11,9 @@ class Navbar extends Component {
           </button>
         </span>
         <span id="navbarRight">
-        <i className="fas fa-plus-square navbarBtn"></i>
-        <i className="fas fa-user navbarBtn"></i>
-        <i className="fas fa-sign-out-alt navbarBtn"></i>
+          <a href="/create"><i className="fas fa-plus-square navbarBtn"></i></a>
+          <a href="/user"><i className="fas fa-user navbarBtn"></i></a>
+          <a href="/"><i className="fas fa-sign-out-alt navbarBtn"></i></a>
         </span>
       </div>
     );

@@ -56,8 +56,7 @@
   color: #233237;
   transition: all 1s; }
   .landingBtn:hover {
-    color: #984B43;
-    background-color: #af9252; }
+    color: #984B43; }
 
 #loginBtn {
   margin-top: 7px;
@@ -138,7 +137,8 @@ label {
     width: 250px;
     height: 250px;
     border: solid 2px #984B43;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   .userInfo #userName {
     font-family: "Exo 2", sans-serif;
     font-size: 25px;
