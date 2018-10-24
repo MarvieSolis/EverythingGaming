@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LogoBlack from "../../static/images/LogoWhite.png";
+import LogoNav from "../static/images/LogoAccent.png";
 
 class Navbar extends Component {
   render() {
@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className="container-fluid Navbar">
         <span id="navbarLeft">
           <button id="homeBtnBox">
-            <img id="homeBtn" src={LogoBlack} alt="Home Button"></img>
+            <img id="homeBtn" src={LogoNav} alt="Home Button"></img>
           </button>
         </span>
         <span id="navbarRight">

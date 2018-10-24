@@ -1,0 +1,65 @@
+.createPost {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#createPostHeader {
+    font-family: $headerfont;
+    color: $accent;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#createPostIns {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.createPostBtnWrapper {
+    width: 330px;
+    height: 50px;
+    background-color: $accent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: $shadow;
+}
+
+.categorySelect {
+    width: 108px;
+    height: 45px;
+    margin-top: 2.5px;
+    border: none;
+    background-color: $accent;
+    font-size: 15px;
+    color: $primary;
+
+    transition: all 1s;
+
+    &:hover {
+        color: $secondary;
+    }
+}
+
+.ctgsl {
+    border-left: 1px solid $accentDark;
+    border-right: 1px solid $accentDark;
+}
+
+label {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.submitBtn {
+    background-color: $accent;
+    color: $primary;
+    box-shadow: $shadow;
+    margin-bottom: 50px;
+
+    transition: all 1s;
+
+    &:hover {
+        color: $secondary;
+    }
+}

@@ -1,9 +1,15 @@
 .Landing {
   background-color: #233237;
   width: 100%;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  height: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -450px;
+  margin-left: -50%; }
 
 #landingLogo {
   margin-top: 50px;
@@ -45,11 +51,13 @@
   border: none;
   background-color: #EAC67A;
   font-size: 20px;
+  font-weight: bold;
   letter-spacing: 2px;
   color: #233237;
   transition: all 1s; }
   .landingBtn:hover {
-    color: #984B43; }
+    color: #984B43;
+    background-color: #af9252; }
 
 #loginBtn {
   margin-top: 7px;
@@ -67,6 +75,150 @@
   font-size: 15px;
   text-align: center;
   bottom: 0; }
+
+.createPost {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#createPostHeader {
+  font-family: "Exo 2", sans-serif;
+  color: #EAC67A;
+  font-size: 40px;
+  letter-spacing: 2px; }
+
+#createPostIns {
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.createPostBtnWrapper {
+  width: 330px;
+  height: 50px;
+  background-color: #EAC67A;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.categorySelect {
+  width: 108px;
+  height: 45px;
+  margin-top: 2.5px;
+  border: none;
+  background-color: #EAC67A;
+  font-size: 15px;
+  color: #233237;
+  transition: all 1s; }
+  .categorySelect:hover {
+    color: #984B43; }
+
+.ctgsl {
+  border-left: 1px solid #af9252;
+  border-right: 1px solid #af9252; }
+
+label {
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+.submitBtn {
+  background-color: #EAC67A;
+  color: #233237;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 50px;
+  transition: all 1s; }
+  .submitBtn:hover {
+    color: #984B43; }
+
+.userProfile {
+  width: 100%;
+  margin-top: 25px; }
+
+.userInfo {
+  margin-bottom: 50px; }
+  .userInfo #userImage {
+    width: 250px;
+    height: 250px;
+    border: solid 2px #984B43;
+    margin-bottom: 10px; }
+  .userInfo #userName {
+    font-family: "Exo 2", sans-serif;
+    font-size: 25px;
+    color: #EAC67A; }
+
+#userPostsHeader {
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
+  color: #EAC67A;
+  margin-bottom: 10px; }
+
+.Navbar {
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(#233237, #012125);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+#homeBtnBox {
+  width: 70px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 65px;
+  vertical-align: middle; }
+
+#homeBtn {
+  width: 100%; }
+
+.navbarBtn {
+  color: #FFFFFF;
+  margin-left: 20px;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 75px;
+  transition: all 1s; }
+  .navbarBtn:hover {
+    color: #984B43; }
+
+#navbarLeft {
+  float: left;
+  text-align: left;
+  width: 25%; }
+
+#navbarRight {
+  float: right;
+  text-align: right;
+  width: 75%; }
+
+.userPostsPreview {
+  width: 300px;
+  height: 70px;
+  background-color: #984B43;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 1s; }
+  .userPostsPreview:hover {
+    background-color: #762921; }
+  .userPostsPreview #previewLeft {
+    float: left;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px; }
+    .userPostsPreview #previewLeft #postPreviewTitle {
+      font-size: 20px; }
+    .userPostsPreview #previewLeft #postPreviewGame {
+      font-size: 16px;
+      font-style: italic; }
+  .userPostsPreview #previewRight {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px; }
+    .userPostsPreview #previewRight #postPreviewCategory {
+      font-size: 15px; }
+    .userPostsPreview #previewRight #postPreviewPlatform {
+      margin-top: 13px;
+      font-size: 15px;
+      font-style: italic;
+      color: #999999; }
 
 body {
   text-align: center;

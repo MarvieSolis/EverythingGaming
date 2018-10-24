@@ -1,0 +1,42 @@
+.userPostsPreview
+    width: 300px;
+    height: 70px;
+    background-color: $secondary;
+    margin-bottom: 10px;
+    box-shadow: $shadow;
+
+    transition: all 1s;
+
+    &:hover
+        background-color: $secondaryDark;
+    
+    #previewLeft
+        float: left;
+        text-align: left;
+        display: inline-block;
+        width: 50%;
+        margin-top: 10px;
+
+        #postPreviewTitle
+            font-size: 20px;
+
+        #postPreviewGame
+            font-size: 16px;
+            font-style: italic;
+
+    #previewRight
+        float: right;
+        text-align: right;
+        display: inline-block;
+        width: 50%;
+        margin-top: 10px;
+
+        #postPreviewCategory
+            font-size: 15px;
+
+        #postPreviewPlatform
+            margin-top: 13px;
+            font-size: 15px;
+            font-style: italic;
+            color: $greyed;
+
