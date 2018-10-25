@@ -154,7 +154,7 @@ label {
   margin-top: 20px; }
 
 .searchBarWrapper {
-  width: 90%;
+  width: 91%;
   height: 45px;
   padding-top: 5px;
   border-radius: 5px;
@@ -174,6 +174,58 @@ label {
   background-color: #FFFFFF;
   color: #984B43;
   margin-top: 5px; }
+
+.Login {
+  background-color: #233237;
+  width: 100%;
+  height: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -450px;
+  margin-left: -50%; }
+
+#landingLogo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 300px; }
+
+#landingTitle {
+  font-family: "Exo 2", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #EAC67A;
+  font-weight: bold;
+  transition: all 1s; }
+  #landingTitle:hover {
+    color: #984B43; }
+
+.signInUpBox {
+  width: 200px;
+  height: 45px;
+  background-color: #EAC67A;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+.loginPageBtn {
+  width: 85px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 3px;
+  color: #233237;
+  background-color: #EAC67A;
+  border: none;
+  font-size: 16px;
+  transition: all 1s; }
+  .loginPageBtn:focus {
+    color: #984B43;
+    outline: none;
+    font-size: 17px; }
 
 .Navbar {
   width: 100%;

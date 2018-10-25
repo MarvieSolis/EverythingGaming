@@ -31,7 +31,9 @@ class Landing extends Component {
                         <div className="container buttonBox">
                             <div className="row justify-content-center btnRow">
                                 <div className="col-auto">
-                                    <button className="landingBtn" id="loginBtn">Login</button>
+                                    <a href="/login">
+                                        <button className="landingBtn" id="loginBtn">Login</button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="row justify-content-center">
