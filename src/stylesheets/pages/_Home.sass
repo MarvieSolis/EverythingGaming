@@ -3,24 +3,43 @@
 #selectForm
     margin-top: 20px;
 
-.searchBarWrapper
-    width: 91%;
-    height: 45px;
-    padding-top: 5px;
-    border-radius: 5px;
+.searchPage
+    width: 300px;
     background-color: white;
+    height: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
 
 #searchHeader
     margin-top: 20px;
 
 #searchBar
     border: none;
+    width: 50%;
+    display: inline-block;
 
 #searchParam
     border: none;
+    display: inline-block;
+    width: 30%;
+
 
 #searchBtn
     border: none;
     background-color: $default;
     color: $secondary;
     margin-top: 5px;
+    display: inline-block;
+    width: 15%;
+
+    transition: all 1s;
+
+    &:hover
+        color: $primary;
+
+#selectSort
+    width: 150px;
+    background-color: $background;
+    color: $accent;
+    border: none;

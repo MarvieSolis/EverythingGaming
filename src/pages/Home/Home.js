@@ -31,24 +31,16 @@ class Home extends Component {
                                     <label id="searchHeader" htmlFor="searchBar">Search</label>
                                 </div>
                                 <div className="row justify-content-center">
-                                    <div className="searchBarWrapper">
-                                        <div className="row justify-content-center">
-                                            <div className="col-5">
-                                                <input type="platform" name="searchTerm" onChange={this.handleInput} className="form-control" id="searchBar" placeholder="Search" />
-                                            </div>
-                                            <div className="col-4">
-                                                <select className="form-control" name="searchParam" id="searchParam" onChange={this.handleInput}>
-                                                    <option>game</option>
-                                                    <option>author</option>
-                                                    <option>platform</option>
-                                                </select>
-                                            </div>
-                                            <div className="col-2">
-                                                <button id="searchBtn">
-                                                    <i className="fas fa-search"></i>
-                                                </button>
-                                            </div>
-                                        </div>
+                                    <div className="searchPage">
+                                        <select name="searchParam" id="searchParam" onChange={this.handleInput}>
+                                            <option>game</option>
+                                            <option>author</option>
+                                            <option>platform</option>
+                                        </select>
+                                        <input type="platform" name="searchTerm" onChange={this.handleInput} id="searchBar" placeholder="Search" />
+                                        <button id="searchBtn">
+                                            <i className="fas fa-search"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </form>
@@ -58,12 +50,18 @@ class Home extends Component {
                     <div className="row justify-content-center">
                         <div className="col-sm-8">
                             <form id="selectForm">
-                                <div className="form-group">
+                                <div className="row justify-content-center">
                                     <label htmlFor="selectSort">Sort by</label>
-                                    <select className="form-control" name="sortBy" id="selectSort" onChange={this.handleInput}>
-                                        <option>Most Recent</option>
-                                        <option>Most Popular</option>
-                                    </select>
+                                </div>
+                                <div className="row justify-content-center">
+                                    <div className="col-sm-12">
+                                        <div className="form-group">
+                                            <select name="sortBy" id="selectSort" onChange={this.handleInput}>
+                                                <option>Most Recent</option>
+                                                <option>Most Popular</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>

@@ -153,27 +153,43 @@ label {
 #selectForm {
   margin-top: 20px; }
 
-.searchBarWrapper {
-  width: 91%;
-  height: 45px;
-  padding-top: 5px;
-  border-radius: 5px;
-  background-color: white; }
+.searchPage {
+  width: 300px;
+  background-color: white;
+  height: 40px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px; }
 
 #searchHeader {
   margin-top: 20px; }
 
 #searchBar {
-  border: none; }
+  border: none;
+  width: 50%;
+  display: inline-block; }
 
 #searchParam {
-  border: none; }
+  border: none;
+  display: inline-block;
+  width: 30%; }
 
 #searchBtn {
   border: none;
   background-color: #FFFFFF;
   color: #984B43;
-  margin-top: 5px; }
+  margin-top: 5px;
+  display: inline-block;
+  width: 15%;
+  transition: all 1s; }
+  #searchBtn:hover {
+    color: #233237; }
+
+#selectSort {
+  width: 150px;
+  background-color: #18121E;
+  color: #EAC67A;
+  border: none; }
 
 .Login {
   background-color: #233237;
