@@ -95,6 +95,10 @@ class Login extends Component {
                                     <label htmlFor="userImageUrl">Image Link</label>
                                     <input type="url" name="imageUrl" className="form-control" id="imaegUrl" placeholder="Paste image link here (must be 1:1)" onChange={this.handleInput} />
                                 </div>
+                                <div className="form-group">
+                                    <label htmlFor="username">Username</label>
+                                    <input type="username" name="username" className="form-control" id="username" aria-describedby="username" placeholder="Enter username (letters and numbers only)" onChange={this.handleInput} />
+                                </div>
                                 <button type="submit" className="btn submitBtn">Sign Up</button>
                             </form>
 

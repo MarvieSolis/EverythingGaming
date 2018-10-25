@@ -7,6 +7,8 @@ import Landing from "./pages/Landing/Landing";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import UserProfile from "./pages/UserProfile/UserProfile";
+import PostDetail from "./pages/PostDetail/PostDetail";
+import Page404 from "./pages/Page404/Page404";
 
 class App extends Component {
   render() {
@@ -20,7 +22,8 @@ class App extends Component {
                 <Route exact path = "/home" component = {Home} />
                 <Route exact path = "/user" component = {UserProfile} />
                 <Route exact path = "/create" component = {CreatePost} />
-                {/* <Route component={Page404} /> */}
+                <Route exact path = "/post" component = {PostDetail} />
+                <Route component={Page404} />
               </Switch>
             </div>
           </Router>

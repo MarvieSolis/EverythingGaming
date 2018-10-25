@@ -42,15 +42,15 @@ class Blog extends Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="game">Game</label>
-                                <input type="game" onChange={this.handleInput} className="form-control" id="postGame" placeholder="Enter the game's title" />
+                                <input type="game" name="game" onChange={this.handleInput} className="form-control" id="postGame" placeholder="Enter the game's title" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="game">Platform</label>
-                                <input type="platform" onChange={this.handleInput} className="form-control" id="postPlatform" placeholder="What are you playing on?" />
+                                <input type="platform" name="platform" onChange={this.handleInput} className="form-control" id="postPlatform" placeholder="What are you playing on?" />
                             </div>
                             <div className="form-group">
-                                <label htmlFor="game">Content</label>
-                                <ReactQuill value={this.state.text} onChange={this.handleChange} />
+                                <label htmlFor="content">Content</label>
+                                <ReactQuill name="text" onChange={this.handleChange} />
                             </div>
                             <button type="submit" className="btn submitBtn">Create Post</button>
                         </form>
