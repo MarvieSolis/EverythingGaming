@@ -7,7 +7,9 @@ class Navbar extends Component {
       <div className="container-fluid Navbar">
         <span id="navbarLeft">
           <button id="homeBtnBox">
-            <img id="homeBtn" src={LogoNav} alt="Home Button"></img>
+            <a href="/home">
+              <img id="homeBtn" src={LogoNav} alt="Home Button"></img>
+            </a>
           </button>
         </span>
         <span id="navbarRight">

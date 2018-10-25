@@ -4,6 +4,7 @@ import './AppSass.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import CreatePost from "./pages/CreatePost/CreatePost";
 import Landing from "./pages/Landing/Landing";
+import Home from "./pages/Home/Home";
 import UserProfile from "./pages/UserProfile/UserProfile";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
             <div>
               <Switch>
                 <Route exact path = "/" component = {Landing} />
+                <Route exact path = "/home" component = {Home} />
                 <Route exact path = "/user" component = {UserProfile} />
                 <Route exact path = "/create" component = {CreatePost} />
                 {/* <Route component={Page404} /> */}

@@ -24,6 +24,12 @@ class Review extends Component {
         this.setState({ text: value })
     }
 
+    handleInput = (event) => {
+        let name = event.target.name;
+        let value = event.target.value;
+        this.setState({ [name]: value }, () => { console.log(name, value) });
+      }
+
     render() {
         return (
             <div className="container Review">

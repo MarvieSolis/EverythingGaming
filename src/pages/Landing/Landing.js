@@ -36,7 +36,9 @@ class Landing extends Component {
                             </div>
                             <div className="row justify-content-center">
                                 <div className="col-sm-auto">
-                                    <button className="landingBtn" id="exploreBtn">Explore</button>
+                                    <a href="/home">
+                                        <button className="landingBtn" id="exploreBtn">Explore</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
