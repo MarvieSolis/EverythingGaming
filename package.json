@@ -1,0 +1,31 @@
+{
+  "name": "everythinggaming",
+  "version": "1.0.0",
+  "description": "## Description *Everything Gaming* is a website dedicated to being the hub for everything gaming related. It aims to consolidate gaming related content into one website. Users can sign in and create posts such as walkthroughs, reviews, and blog posts that can contain videos embedded from other sites and much more. This disables the need to search multiple forums for gaming tips, narrowing the search to one site while concentrating on the author, game, and type of post. Users can also comment on other posts, upvote and downvote comments and posts, and visit other user profiles.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7",
+    "react-google-login": "^3.2.1",
+    "react-quill": "^1.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvieSolis/EverythingGaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvieSolis/EverythingGaming/issues"
+  },
+  "homepage": "https://github.com/MarvieSolis/EverythingGaming#readme"
+}

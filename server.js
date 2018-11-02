@@ -1,10 +1,36 @@
-const express = require('express');
+// Dependencies
+// =============================================================
+const express     = require("express");
+const bodyParser  = require("body-parser");
+const path        = require("path");
+const mysql       = require('mysql')
 
-const app = express();
-const port = process.env.PORT || 3001;
+// Sets up the Express App
+// =============================================================
+const app   = express();
+const PORT  = 3001;
 
-app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Hello From Express' });
+// Set up mysql
+// =============================================================
+const connection = mysql.createConnection({
+  host:     'localhost',
+  user:     'root',
+  password: '',
+  database: 'eg'
+})
+
+connection.connect(function(err) {
+  if (err) throw err
+  console.log('You are now connected...')
+})
+
+// Sets up the Express app to handle data parsing
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+
+// Starts the server to begin listening
+// =============================================================
+app.listen(PORT, function() {
+  console.log("App listening on PORT " + PORT);
 });
-
-app.listen(port, () => console.log(`Listening on port ${port}`));
